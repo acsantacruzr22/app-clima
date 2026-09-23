@@ -1,7 +1,7 @@
-export function CurrentWeatherCard() {
+export function CurrentWeatherCard({ ciudad }) {
     return (
         <div className="tarjeta-clima-principal">
-            <h2 className="ciudad-titulo">Bogotá, Colombia</h2>
+            <h2 className="ciudad-titulo">{ciudad}</h2>
             <p className="hora-local">Hora local: 15:30</p>
 
             <div className="temperatura-gigante">
